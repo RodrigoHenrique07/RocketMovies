@@ -15,8 +15,8 @@ Desafio  - Curso Explorer - Rocketseat.
 - Login e cadastrar nova conta;
 - Home;
 - Profile;
-- Note Preview e;
-- Note Create.
+- Movie Preview e;
+- Movie Create.
 
 Tela de login (SignIn)
 
@@ -45,33 +45,49 @@ Tela Profile:
 - Reaproveitamento do componente Button.
 
 
+Tela Movie Create:
+
+
+![image](https://user-images.githubusercontent.com/99925589/199091431-de7d8bc3-2dbf-4b10-b403-32467207bb47.png)
+
+- Reaproveitamento do componente Header;
+- Reaproveitamento do componente do botão voltar;
+- Reaproveitamento do componente Input;
+- Desenvolvido um novo componente do tipo TextArea com as observações
+- Desenvolvido um novo componente para os marcadores, neste caso foi usando o if ternário para adicionar ou remover as bordas
+- Reaproveitamento do componente Button, mas passando uma nova propriedade (isNew) para criar uma condição com o if ternário e modificar tanto o background quanto a cor da fonte
+
+
+Tela Movie Preview:
+
+![image](https://user-images.githubusercontent.com/99925589/199092320-c95f6a01-1b72-4eda-873f-13ca0f56755d.png)
+
+
+Neta tela o usuário poderá ver suas anotações/comentários sobre o filme e sua classificação
+
+- Reaproveitamento do Header;
+- Reaproveitamento do botão voltar;
+- Reaproveitamento das tags de gênero
 
 
 
-
-
-![image](https://user-images.githubusercontent.com/99925589/193408706-76386ad4-5cad-43bb-ba8f-a781d7d7376a.png)
-
-Montado a estrutura e feito a estilização, foi aplicado algumas funcionalidades com o JavaScript, tais como: Menu Fixo, Menu Mobile e a criação de um  DropDown, ambos trabalhando com a adição de eventos do tipo 'click' ou scroll
-
-![image](https://user-images.githubusercontent.com/99925589/193408946-95d35ecc-a17d-4db3-9528-b0ce4eb1b52f.png)
-
-
-
-<p>Esse foi o resultado:</p>
-<a>desafio-c6-bank.vercel.app</a>
 
 ## Aprendizado 
 
- * <p> Aprimoramento do html semântico; </p>
- * <p> Uso do CSS com sass;</p>
- * <p> Criar evento do tipo scroll para deixar um menu fixo e fazê-lo mudar as características a partir de determinada posição</p>
- * <p> Criar um DropDown para mostrar mais opções de navegação;</p>
- * <p> Uso do evento click;</p>
- * <p> Desenvolvimento de um Modal para o menu Mobile;</p>
- * <p> Uso da biblioteca AOS Animate;</p>
- * <p> Uso do @keyframes;</p>
+ * <p> Como escolher e instalar um setup ja pronto (npm create vite@latest); </p>
+ * <p> como executar o projeto (npm run dev); </p>
+ * <p> Estrutura de pasta;</p>
+ * <p> Separar as pastas para em paginas e para os componentes;</p>
+ * <p> Regra da componentização;</p>
+ * <p> Instalação e utilização do styled-components;</p>
+ * <p> Uso de um tema global com as cores usando o ThemeProvider;</p>
+ * <p> Estilização global;</p>
+ * <p> Componentização;</p>
+ * <p> Propriedades;</p>
+ * <p> Usa da biblioteca React-Icon;</p>
+ * <p> Uso do if ternário.</p>
+ 
  
 
  ## Mobile 📱
- ![image](https://user-images.githubusercontent.com/99925589/193409256-d0b01944-beb4-4686-a26f-8b1eddc9f4bc.png)
+ Neste desafio não foi trabalhado o mobile
